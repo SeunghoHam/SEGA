@@ -10,7 +10,7 @@ const char gStageData[] = "\
 #      #\n\
 ########";
 const int gStageWidth = 8;
-const int gStageHeight = 5;
+const int gStageHeight = 6;
 
 // 열거형
 enum Object
@@ -161,7 +161,8 @@ void Update(Object* state, char input, int w, int h)
 	// A. 이동할 곳이 빈칸 또는 목적지 -> 플레이어 이동
 	int p = y * w + x; // 플레이어 현재 위치
 	int tp = ty * w + tx; // 목표 위치 ( TargetPosition)
-	if (state[tp] == OBJ_SPACE || state[tp] == OBJ_GOAL)
+
+	if (state[tp] == OBJ_SPACE || state[tp] == OBJ_GOAL) // 1번째 if - 이동할곳이 빈칸이면 이동(공백, 목적지)
 	{
 		// 이동할 곳이 목적지라면 목적지 위 사람, 아니면 그냥 사람
 		state[tp] = (state[tp] == OBJ_GOAL) ? OBJ_MAN_ON_GOAL : OBJ_MAN;
@@ -170,7 +171,7 @@ void Update(Object* state, char input, int w, int h)
 		state[p] = (state[p] == OBJ_MAN_ON_GOAL) ? OBJ_GOAL : OBJ_SPACE;
 	}
 	// B. 이동할 곳이 상자 -> 그 방향 다음 칸이 공백이나 목적지면 이동
-	else if (state[tp] == OBJ_BLOCK || state[tp] == OBJ_BLOCK_ON_GOAL)
+	else if (state[tp] == OBJ_BLOCK || state[tp] == OBJ_BLOCK_ON_GOAL) // 2번째 if - 이동할 곳에 상자
 	{
 		// 2칸 앞이 범위 내인지 검사
 		int tx2 = tx + dx;
@@ -192,11 +193,31 @@ void Update(Object* state, char input, int w, int h)
 				OBJ_GOAL : OBJ_SPACE;
 		}
 	}
-
-
+	else if (state[tp] == OBJ_WALL) // 내가 임의로 추가한 코드 p 65 참고
+		return;	
 	//throw gcnew System::NotImplementedException();
 }
 
+bool CheckClear(const Object* state, int w, int h)
+{
+	for (int i = 0; i < w * h; ++i)
+	{
+		if (state[i] == OBJ_BLOCK)
+		{
+			return false;
+		}
+	}
+	return true;
+}
 
-
+/*
+class IntArray2D
+{
+public:
+	IntArray2D(int size0, int size1) : mArray(0), mSize0(size0), mSize1(size1) 
+	{
+		mArray = new int[size0 * size1];
+	}
+};
+*/
 
