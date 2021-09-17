@@ -1,3 +1,5 @@
+// 프로젝트 세팅 p.117 에 있다.
+
 #include<iostream>
 using namespace std;
 

@@ -1,0 +1,62 @@
+﻿  main.cpp
+C:\SEGA\GameLib\2DGraphics1\include\GameLib\Framework.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+libcpmtd.lib(xlock.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(xthrow.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(stdthrow.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(ios.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(wiostrea.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(fiopen.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(uncaught_exception.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(locale0.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(xlocale.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(_tolower.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(_toupper.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(xwctomb.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(xmtx.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(uncaught_exceptions.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(syserror.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(iosptrs.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(locale.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(nothrow.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(xstrcoll.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(xdateord.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(xstrxfrm.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(xstol.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(StlLCMapStringA.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(wlocale.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(xstoul.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(xstoll.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(xstoull.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(StlCompareStringA.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(xmbtowc.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(xwcscoll.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(xwcsxfrm.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(xgetwctype.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(xtowlower.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(xtowupper.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(StlCompareStringW.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+libcpmtd.lib(StlLCMapStringW.obj) : error LNK2038: '_MSC_VER'에 대해 불일치가 검색되었습니다. '1900' 값이 '1600'(GameLib_d.lib(Framework.obj)에 위치) 값과 일치하지 않습니다.
+LINK : warning LNK4098: 'LIBCMTD' defaultlib가 다른 라이브러리와 충돌합니다. /NODEFAULTLIB:library를 사용하십시오.
+GameLib_d.lib(InFile.obj) : error LNK2001: 확인할 수 없는 외부 기호 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+GameLib_d.lib(OStringStream.obj) : error LNK2001: 확인할 수 없는 외부 기호 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+GameLib_d.lib(Thread.obj) : error LNK2001: 확인할 수 없는 외부 기호 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+GameLib_d.lib(DocumentImpl.obj) : error LNK2001: 확인할 수 없는 외부 기호 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+GameLib_d.lib(Texture.obj) : error LNK2001: 확인할 수 없는 외부 기호 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+GameLib_d.lib(ThreadingManager.obj) : error LNK2001: 확인할 수 없는 외부 기호 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+GameLib_d.lib(FileIOManager.obj) : error LNK2001: 확인할 수 없는 외부 기호 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+GameLib_d.lib(GraphicsManager.obj) : error LNK2001: 확인할 수 없는 외부 기호 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+GameLib_d.lib(Framework.obj) : error LNK2001: 확인할 수 없는 외부 기호 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+GameLib_d.lib(WindowCreator.obj) : error LNK2001: 확인할 수 없는 외부 기호 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+GameLib_d.lib(Font.obj) : error LNK2001: 확인할 수 없는 외부 기호 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+GameLib_d.lib(StringRenderer.obj) : error LNK2001: 확인할 수 없는 외부 기호 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)
+GameLib_d.lib(FileIOManager.obj) : error LNK2019: "public: __thiscall std::_Mutex::~_Mutex(void)" (??1_Mutex@std@@QAE@XZ)"public: virtual __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::~basic_streambuf<char,struct std::char_traits<char> >(void)" (??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+GameLib_d.lib(FileIOManager.obj) : error LNK2019: "public: void __thiscall std::_Mutex::_Lock(void)" (?_Lock@_Mutex@std@@QAEXXZ)"public: virtual void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Lock(void)" (?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+GameLib_d.lib(FileIOManager.obj) : error LNK2019: "public: void __thiscall std::_Mutex::_Unlock(void)" (?_Unlock@_Mutex@std@@QAEXXZ)"public: virtual void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Unlock(void)" (?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+GameLib_d.lib(FileIOManager.obj) : error LNK2019: "void * __cdecl operator new(unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (??2@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z)"protected: void __thiscall std::ios_base::_Init(void)" (?_Init@ios_base@std@@IAEXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+GameLib_d.lib(FileIOManager.obj) : error LNK2019: "struct std::_DebugHeapTag_t const & __cdecl std::_DebugHeapTag_func(void)" (?_DebugHeapTag_func@std@@YAABU_DebugHeapTag_t@1@XZ)"protected: void __thiscall std::ios_base::_Init(void)" (?_Init@ios_base@std@@IAEXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+GameLib_d.lib(FileIOManager.obj) : error LNK2019: "private: static class std::locale::_Locimp * __cdecl std::locale::_Init(void)" (?_Init@locale@std@@CAPAV_Locimp@12@XZ)"public: __thiscall std::locale::locale(void)" (??0locale@std@@QAE@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+GameLib_d.lib(FileIOManager.obj) : error LNK2019: "public: __thiscall std::_Mutex::_Mutex(void)" (??0_Mutex@std@@QAE@XZ)"protected: __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::basic_streambuf<char,struct std::char_traits<char> >(void)" (??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+GameLib_d.lib(FileIOManager.obj) : error LNK2019: "public: __thiscall std::bad_cast::bad_cast(char const *)" (??0bad_cast@std@@QAE@PBD@Z)"class std::ctype<char> const & __cdecl std::use_facet<class std::ctype<char> >(class std::locale const &)" (??$use_facet@V?$ctype@D@std@@@std@@YAABV?$ctype@D@0@ABVlocale@0@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+GameLib_d.lib(FileIOManager.obj) : error LNK2019: "private: static void __cdecl std::locale::facet::_Facet_Register(class std::locale::facet *)" (?_Facet_Register@facet@locale@std@@CAXPAV123@@Z)"public: void __thiscall std::locale::facet::_Register(void)" (?_Register@facet@locale@std@@QAEXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+GameLib_d.lib(FileIOManager.obj) : error LNK2019: "void * __cdecl operator new[](unsigned int,struct std::_DebugHeapTag_t const &,char *,int)" (??_U@YAPAXIABU_DebugHeapTag_t@std@@PADH@Z)"char * __cdecl std::_Maklocstr<char>(char const *,char *,struct _Cvtvec const &)" (??$_Maklocstr@D@std@@YAPADPBDPADABU_Cvtvec@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\SEGA\puzzleGame\Debug\Draw mole.exe : fatal error LNK1120: 11개의 확인할 수 없는 외부 참조입니다.
